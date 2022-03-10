@@ -27,7 +27,11 @@ Xcode will also notify you if the variable you declared didn't change at all and
 Declaring strings should be always be between double quotes and integers doesn't need it, or else it will be inferred as a String
 
 You can use underscores to make big numbers more readable like:
+<<<<<<< HEAD
 ```swift  
+=======
+```
+>>>>>>> 11ba5fcf0fd7660e5edc4e440e9588d1f3df56f3
 let lottoJackpot = 1_000_000_000
 ```
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' executeOnSourceChanges='true' importAppTypes='true'>
+    <pages>
+        <page name='Arithmetic operators'/>
+        <page name='Operator overloading'/>
+        <page name='Compound assignment operators'/>
+        <page name='Comparison operators'/>
+        <page name='Conditions '/>
+        <page name='Combining conditions'/>
+        <page name='Ternary Operator'/>
+        <page name='Switch statements'/>
+        <page name='Range operators'/>
+    </pages>
+</playground>

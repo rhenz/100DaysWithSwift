@@ -2,7 +2,7 @@
 
 ## Notes
 
-### Arithmetic Opeartors
+### Arithmetic Operators
 Swift supports the four standard arithmetic operators
 
 ```swift

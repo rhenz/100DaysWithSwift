@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' executeOnSourceChanges='true' importAppTypes='true'>
+    <pages>
+        <page name='Writing  functions'/>
+        <page name='Accepting parameters'/>
+        <page name='Returning values'/>
+        <page name='Parameter labels'/>
+        <page name='Omitting parameter labels'/>
+        <page name='Default parameters'/>
+        <page name='Variadic Parameters'/>
+        <page name='Writing throwing functions'/>
+        <page name='Running throwing functions'/>
+        <page name='inout parameters'/>
+    </pages>
+</playground>

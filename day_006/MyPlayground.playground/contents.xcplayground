@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' executeOnSourceChanges='true' importAppTypes='true'>
+    <pages>
+        <page name='Creating basic closures'/>
+        <page name='Accepting parameters in a closure'/>
+        <page name='Returning values from a closure'/>
+        <page name='Closures as parameters'/>
+        <page name='Trailing closure syntax'/>
+    </pages>
+</playground>

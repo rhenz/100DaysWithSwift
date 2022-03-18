@@ -1,4 +1,4 @@
-# Day 6: Closures Part 2
+# Day 7: Closures Part 2
 
 ## Notes
 

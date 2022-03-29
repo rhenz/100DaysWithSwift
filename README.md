@@ -22,20 +22,20 @@ Looking forward to finish this in 100 days and get back in the field.
 - [x] Day 7 – closures part two
 - [x] Day 8 – structs, properties, and methods
 - [x] Day 9 – access control, static properties, and laziness
-- [ ] Day 10 – classes and inheritance
-- [ ] Day 11 – protocols, extensions, and protocol extensions
-- [ ]  Day 12 – optionals, unwrapping, and typecasting
+- [x] Day 10 – classes and inheritance
+- [x] Day 11 – protocols, extensions, and protocol extensions
+- [x]  Day 12 – optionals, unwrapping, and typecasting
 
 ### Days 13-15: Consolidation I
 You just learned a lot about Swift in only 12 days, so before we continue it's important you reflect on what you've learned: look for weak spots, re-watch videos, re-take tests, and so on, until you feel comfortable that you have mastered all the Swift language fundamentals covered in days 1-12.
 
-- [ ] Day 13 – Swift review, day one
-- [ ] Day 14 – Swift review, day two
-- [ ] Day 15 – Swift review, day three
+- [x] Day 13 – Swift review, day one
+- [x] Day 14 – Swift review, day two
+- [x] Day 15 – Swift review, day three
 
 ### Days 16-22: Starting iOS
-- [ ] Day 16 – Project 1, part one
-- [ ] Day 17 – Project 1, part two
+- [x] Day 16 – Project 1, part one
+- [x] Day 17 – Project 1, part two
 - [ ] Day 18 – Project 1, part three
 - [ ] Day 19 – Project 2, part one
 - [ ] Day 20 – Project 2, part two

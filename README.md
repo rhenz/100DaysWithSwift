@@ -38,7 +38,7 @@ You just learned a lot about Swift in only 12 days, so before we continue it's i
 - [x] Day 17 – Project 1, part two
 - [x] Day 18 – Project 1, part three
 - [x] Day 19 – Project 2, part one
-- [ ] Day 20 – Project 2, part two
+- [x] Day 20 – Project 2, part two
 - [ ] Day 21 – Project 2, part three
 - [ ] Day 22 – Project 3
 

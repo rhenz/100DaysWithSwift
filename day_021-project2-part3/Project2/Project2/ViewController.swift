@@ -24,8 +24,13 @@ class ViewController: UIViewController {
     // MARK: - View Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+        self.countries = ["estonia", "france", "germany", "ireland", "italy", "monaco", "nigeria", "poland", "russia", "spain", "uk", "us"]
+        setupViews()
+        askQuestion()
+    }
+
+    // MARK: - Private Methods
+    private func setupViews() {
         self.button1.layer.borderWidth = 1
         self.button2.layer.borderWidth = 1
         self.button3.layer.borderWidth = 1
@@ -33,13 +38,17 @@ class ViewController: UIViewController {
         self.button1.layer.borderColor = UIColor.lightGray.cgColor
         self.button2.layer.borderColor = UIColor.lightGray.cgColor
         self.button3.layer.borderColor = UIColor.lightGray.cgColor
-
         
-        self.countries = ["estonia", "france", "germany", "ireland", "italy", "monaco", "nigeria", "poland", "russia", "spain", "uk", "us"]
-        askQuestion()
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: self, action: #selector(showScore))
     }
-
-    // MARK: - Private Methods
+    
+    @objc
+    private func showScore() {
+        let ac = UIAlertController(title: "Score", message: "\(score)", preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: "Ok", style: .default))
+        present(ac, animated: true)
+    }
+    
     private func askQuestion(_ alertAction: UIAlertAction? = nil) {
         self.countries.shuffle()
         

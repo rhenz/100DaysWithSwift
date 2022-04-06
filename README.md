@@ -40,10 +40,10 @@ You just learned a lot about Swift in only 12 days, so before we continue it's i
 - [x] Day 19 – Project 2, part one
 - [x] Day 20 – Project 2, part two
 - [x] Day 21 – Project 2, part three
-- [ ] Day 22 – Project 3
+- [x] Day 22 – Project 3
 
 ### Day 23: Consolidation II
-- [ ] Day 23 – Milestone: Projects 1-3
+- [x] Day 23 – Milestone: Projects 1-3
 
 ### Days 24-31: Web views, user input, and Auto Layout
 - [ ] Day 24 – Project 4, part one

@@ -47,12 +47,12 @@ You just learned a lot about Swift in only 12 days, so before we continue it's i
 
 ### Days 24-31: Web views, user input, and Auto Layout
 - [x] Day 24 – Project 4, part one
-- [ ] Day 25 – Project 4, part two
-- [ ] Day 26 – Project 4, part three
-- [ ] Day 27 – Project 5, part one
-- [ ] Day 28 – Project 5, part two
-- [ ] Day 29 – Project 5, part three
-- [ ] Day 30 – Project 6, part one
+- [x] Day 25 – Project 4, part two
+- [x] Day 26 – Project 4, part three
+- [x] Day 27 – Project 5, part one
+- [x] Day 28 – Project 5, part two
+- [x] Day 29 – Project 5, part three
+- [x] Day 30 – Project 6, part one
 - [ ] Day 31 – Project 6, part two
 
 ### Day 32: Consolidation III

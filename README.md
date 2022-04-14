@@ -53,16 +53,16 @@ You just learned a lot about Swift in only 12 days, so before we continue it's i
 - [x] Day 28 – Project 5, part two
 - [x] Day 29 – Project 5, part three
 - [x] Day 30 – Project 6, part one
-- [ ] Day 31 – Project 6, part two
+- [x] Day 31 – Project 6, part two
 
 ### Day 32: Consolidation III
 You’ve learned about WebKit, UIAlertController, Auto Layout, and more – some more fundamentals of iOS development. Before we continue on to more projects, let’s take a moment to review what you’ve learned.
 
-- [ ] Day 32 – Milestone: Projects 4-6
+- [x] Day 32 – Milestone: Projects 4-6
 
 ### Days 33-40: Codable, buttons, and GCD
 The next three projects we’ll be building projects where you meet some of the most important topics in iOS development: working with data from the internet, and taking advantage of the raw power of iOS devices. Of course, you’ll also be making useful products along the way!
-- [ ] Day 33 – Project 7, part one
+- [x] Day 33 – Project 7, part one
 - [ ] Day 34 – Project 7, part two
 - [ ] Day 35 – Project 7, part three
 - [ ] Day 36 – Project 8, part one

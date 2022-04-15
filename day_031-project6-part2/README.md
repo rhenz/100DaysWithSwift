@@ -15,3 +15,4 @@ Also, we learned another way to create autolayout using its `anchors` which is m
 
 ## Screenshots:
 ![App-Screenshot](documentation/1.png)
+![App-Screenshot](documentation/1.gif)

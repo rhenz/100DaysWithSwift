@@ -1,4 +1,4 @@
-# Day 32: Project 7, Part One
+# Day 33: Project 7, Part One
 
 ## Notes
 
@@ -35,4 +35,4 @@ if let jsonPetitions = try? decoder.decode(Petitions.self, from: jsonData) {
 ```
 
 ## Screenshots:
-![App-Screenshot](documentation/1.png)
+![App-Screenshot](documentation/1.gif)

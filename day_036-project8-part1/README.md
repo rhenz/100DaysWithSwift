@@ -45,3 +45,4 @@ answersLabel.setContentHuggingPriority(UILayoutPriority(1), for: .vertical)
 
 ## Screenshots:
 ![App-Screenshot](documentation/1.png)
+

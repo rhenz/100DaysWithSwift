@@ -67,8 +67,8 @@ The next three projects we’ll be building projects where you meet some of the 
 - [x] Day 35 – Project 7, part three
 - [x] Day 36 – Project 8, part one
 - [x] Day 37 – Project 8, part two
-- [ ] Day 38 – Project 8, part three
-- [ ] Day 39 – Project 9, part one
+- [x] Day 38 – Project 8, part three
+- [x] Day 39 – Project 9, part one
 - [ ] Day 40 – Project 9, part two
 
 ### Day 41: Consolidation IV

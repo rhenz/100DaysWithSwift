@@ -69,7 +69,7 @@ The next three projects we’ll be building projects where you meet some of the 
 - [x] Day 37 – Project 8, part two
 - [x] Day 38 – Project 8, part three
 - [x] Day 39 – Project 9, part one
-- [ ] Day 40 – Project 9, part two
+- [x] Day 40 – Project 9, part two
 
 ### Day 41: Consolidation IV
 You’ve tackled some really big projects these last few days, not least learning about building a user interface in code and running code in background threads. It’s time to take a moment to review what you’ve learned.

@@ -8,3 +8,5 @@
 2. Modify project 8 so that loading and parsing a level takes place in the background. Once you’re done, make sure you update the UI on the main thread!
 3. Modify project 7 so that your filtering code takes place in the background. This filtering code was added in one of the challenges for the project, so hopefully you didn’t skip it!
 
+## Screenshot:
+![App-Screenshot](documentation/1.png)

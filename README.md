@@ -73,13 +73,13 @@ The next three projects we’ll be building projects where you meet some of the 
 
 ### Day 41: Consolidation IV
 You’ve tackled some really big projects these last few days, not least learning about building a user interface in code and running code in background threads. It’s time to take a moment to review what you’ve learned.
-- [ ] Day 41 – Milestone: Projects 7-9
+- [x] Day 41 – Milestone: Projects 7-9
 
 ### Days 42-49: A whole new world
 The next three projects we’ll be making are markedly different from the previous 9 – you’ll learn about making grids rather than tables, learn how to make high-performance 2D games using SpriteKit, and, at last, learn how to save user data.
-- [ ] Day 42 – Project 10, part one
-- [ ] Day 43 – Project 10, part two
-- [ ] Day 44 – Project 10, part three
+- [x] Day 42 – Project 10, part one
+- [x] Day 43 – Project 10, part two
+- [x] Day 44 – Project 10, part three
 - [ ] Day 45 – Project 11, part one
 - [ ] Day 46 – Project 11, part two
 - [ ] Day 47 – Project 11, part three

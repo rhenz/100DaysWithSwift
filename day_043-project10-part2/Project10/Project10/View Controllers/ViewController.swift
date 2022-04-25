@@ -22,10 +22,68 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
     // MARK: - Methods
     @objc
     func addNewPerson() {
-        let picker = UIImagePickerController()
-        picker.allowsEditing = true
-        picker.delegate = self
-        present(picker, animated: true)
+        showSelectPhotoSheet()
+    }
+    
+    private func showSelectPhotoSheet() {
+        let actionSheet = UIAlertController(title: "Camera or Photo Library?", message: nil, preferredStyle: .actionSheet)
+        let cameraAction = UIAlertAction(title: "Camera", style: .default) { [weak self] _ in
+            if UIImagePickerController.isSourceTypeAvailable(.camera) {
+                let picker = UIImagePickerController()
+                picker.sourceType = .camera
+                picker.allowsEditing = true
+                picker.delegate = self
+                self?.present(picker, animated: true)
+            } else {
+                print("Camera not available")
+            }
+        }
+        
+        let photoAction = UIAlertAction(title: "Photo Library", style: .default) { [weak self] _ in
+            // Select photo library
+            let picker = UIImagePickerController()
+            picker.allowsEditing = true
+            picker.delegate = self
+            self?.present(picker, animated: true)
+        }
+        
+        let cancel = UIAlertAction(title: "Cancel", style: .cancel)
+        
+        actionSheet.addAction(cameraAction)
+        actionSheet.addAction(photoAction)
+        actionSheet.addAction(cancel)
+        
+        present(actionSheet, animated: true)
+    }
+    
+    private func showRenamePersonAlert(for personIndex: Int) {
+        let person = persons[personIndex]
+        
+        let ac = UIAlertController(title: "Rename person", message: nil, preferredStyle: .alert)
+        ac.addTextField()
+        
+        ac.addAction(UIAlertAction(title: "Cancel", style: .cancel))
+        ac.addAction(UIAlertAction(title: "OK", style: .default) { [weak self, weak ac] _ in
+            guard let newName = ac?.textFields?[0].text else { return }
+            person.name = newName
+            
+            self?.collectionView.reloadData()
+        })
+        
+        present(ac, animated: true)
+    }
+    
+    private func showRenameOrDeleteAlert(for personIndex: Int) {
+        let ac = UIAlertController(title: "Rename or Delete", message: nil, preferredStyle: .alert)
+        let rename = UIAlertAction(title: "Rename", style: .default) { [weak self] _ in
+            self?.showRenamePersonAlert(for: personIndex)
+        }
+        let delete = UIAlertAction(title: "Delete", style: .destructive) { [weak self] _ in
+            
+        }
+        ac.addAction(delete)
+        ac.addAction(rename)
+        present(ac, animated: true)
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
@@ -71,20 +129,7 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
     
     // MARK: - UICollection Delegate
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let person = persons[indexPath.item]
-        
-        let ac = UIAlertController(title: "Rename person", message: nil, preferredStyle: .alert)
-        ac.addTextField()
-        
-        ac.addAction(UIAlertAction(title: "Cancel", style: .cancel))
-        ac.addAction(UIAlertAction(title: "OK", style: .default) { [weak self, weak ac] _ in
-            guard let newName = ac?.textFields?[0].text else { return }
-            person.name = newName
-            
-            self?.collectionView.reloadData()
-        })
-        
-        present(ac, animated: true)
+        showRenameOrDeleteAlert(for: indexPath.item)
     }
 }
 

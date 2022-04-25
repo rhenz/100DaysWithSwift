@@ -1,0 +1,70 @@
+//
+//  ViewController.swift
+//  Project1
+//
+//  Created by JLCS on 3/29/22.
+//
+
+/*
+ Challenge:
+ 1. Use IB to select the text label inside your table view cell and adjust its size to something larger
+ 2. In tableview, show the image names in sorted order
+ 3. Rather than show image names in the detail title bar, show “Picture X of Y”, where Y is the total number of images and X is the selected picture’s position in the array. Make sure you count from 1 rather than 0.
+ */
+
+import UIKit
+
+class ViewController: UICollectionViewController {
+    
+    // MARK: - Stored Properties
+    var pictures = [String]()
+    
+    // MARK: - View Lifecycle
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.title = "Storm Viewer"
+        navigationController?.navigationBar.prefersLargeTitles = true
+        
+        let fm = FileManager.default
+        let path = Bundle.main.resourcePath!
+        let items = try! fm.contentsOfDirectory(atPath: path)
+        
+        for item in items {
+            if item.hasPrefix("nssl") {
+                self.pictures.append(item)
+            }
+        }
+        
+        // Sort
+        self.pictures.sort()
+    }
+}
+
+
+// MARK: - Collection View Datasource
+extension ViewController {
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return self.pictures.count
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Storm", for: indexPath) as? StormCell else {
+            fatalError("Failed to initialize Storm Cell")
+        }
+        let imageName = pictures[indexPath.item]
+        cell.imageView.image = UIImage(named: imageName)
+        return cell
+    }
+}
+
+// MARK: - Collection View Delegate
+extension ViewController {
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if let vc = storyboard?.instantiateViewController(withIdentifier: "DetailVC") as? DetailViewController {
+            vc.selectedImageName = pictures[indexPath.row]
+            vc.selectedImageIndex = indexPath.row
+            vc.totalNumberOfImages = pictures.count
+            navigationController?.pushViewController(vc, animated: true)
+        }
+    }
+}

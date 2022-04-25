@@ -7,19 +7,6 @@
 
 import UIKit
 
-/*
- 
- ToDo:
- 
- 1. Load words from text file into an array
- 2. Select a random word from the array
- 3. Display the selected word secretly by showing how many character it is using "?"
- 4. When user guess a correct letter, that letter will be revealed on the string of question marks.
- 5. When user guess an incorrect letter, they inch close to death. If user guessed 7 incorrect letters they lose. If they manage to spell the full word before that they win
- 
- 
- */
-
 class ViewController: UIViewController {
     
     // MARK: - IBOutlets

@@ -81,10 +81,10 @@ The next three projects we’ll be making are markedly different from the previo
 - [x] Day 43 – Project 10, part two
 - [x] Day 44 – Project 10, part three
 - [x] Day 45 – Project 11, part one
-- [ ] Day 46 – Project 11, part two
-- [ ] Day 47 – Project 11, part three
-- [ ] Day 48 – Project 12, part one
-- [ ] Day 49 – Project 12, part two
+- [x] Day 46 – Project 11, part two
+- [x] Day 47 – Project 11, part three
+- [x] Day 48 – Project 12, part one
+- [x] Day 49 – Project 12, part two
 
 ### Days 50-51: Consolidation V
 Now that you have conquered UICollectionViewController and Codable, it’s time to pause for a day and review what you learned – while also tackling a fresh challenge.

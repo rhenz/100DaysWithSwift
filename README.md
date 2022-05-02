@@ -89,7 +89,7 @@ The next three projects we’ll be making are markedly different from the previo
 ### Days 50-51: Consolidation V
 Now that you have conquered UICollectionViewController and Codable, it’s time to pause for a day and review what you learned – while also tackling a fresh challenge.
 - [x] Day 50 – Milestone: Projects 10-12
-- [ ] Day 51 – Expanding your horizons
+- [x] Day 51 – Expanding your horizons
 
 
 ### Days 52-59: Images and animation

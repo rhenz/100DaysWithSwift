@@ -93,7 +93,7 @@ Now that you have conquered UICollectionViewController and Codable, it’s time 
 
 
 ### Days 52-59: Images and animation
-- [ ] Day 52 – Project 13, part one
+- [x] Day 52 – Project 13, part one
 - [ ] Day 53 – Project 13, part two
 - [ ] Day 54 – Project 13, part three
 - [ ] Day 55 – Project 14, part one
@@ -149,7 +149,7 @@ Your head is probably spinning with Bezier paths and iBeacons, so before we cont
 - [ ] Day 82 – Milestone: Projects 22-24
 
 
-### Days 83-89: Multipeer and motion 
+### Days 83-89: Multipeer and motion
 These next three projects give you chance to go over some earlier topics again, while also introducing some new frameworks such as MultipeerConnectivity and Core Motion.
 - [ ] Day 83 – Project 25, part one
 - [ ] Day 84 – Project 25, part two

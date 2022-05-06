@@ -31,4 +31,4 @@ On this project, we used the `moveBy` method of SKAction to make the penguins mo
 We haven't done any tapping/hitting handlers for the penguins yet. That will be for tomorrow's lesson i guess?
 
 ## Screenshots
-[Screenshot](documentation/1.gif)
+![App-Screenshot](documentation/1.gif)

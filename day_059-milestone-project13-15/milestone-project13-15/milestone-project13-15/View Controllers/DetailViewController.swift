@@ -57,7 +57,7 @@ class DetailViewController: UITableViewController {
         case .code:
             content.text = country.code
         case .capital:
-            content.text = country.code
+            content.text = country.capital
         case .totalLandArea:
             content.text = "\(country.totalLandArea) km2"
         case .population:

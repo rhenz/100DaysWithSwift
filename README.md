@@ -99,7 +99,7 @@ Now that you have conquered UICollectionViewController and Codable, it’s time 
 - [x] Day 55 – Project 14, part one
 - [x] Day 56 – Project 14, part two
 - [x] Day 57 – Project 15, part one
-- [ ] Day 58 – Project 15, part two
+- [x] Day 58 – Project 15, part two
 
 ### Day 59: Consolidation VI
 We’ve covered some hugely important iOS technologies that you’ll be relying on time and time again, so let’s take a brief pause to recap what you’ve learned.

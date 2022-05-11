@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Philippines", 
+		"code": "PH",
+		"capital": "Manila",
+		"totalLandArea": 298170.0,
+		"population": 109991095,
+		"currency": "Philippine Peso"
+	},
+	{
+		"name": "Singapore", 
+		"code": "SG",
+		"capital": "Singapore",
+		"totalLandArea": 733.1,
+		"population": 5453600,
+		"currency": "Singapore Dollar"
+	},
+	{
+		"name": "Malaysia", 
+		"code": "MY",
+		"capital": "Kuala Lumpur",
+		"totalLandArea": 330803,
+		"population": 32730000,
+		"currency": "Ringgit"
+	},
+
+]

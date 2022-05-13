@@ -109,7 +109,7 @@ We’ve covered some hugely important iOS technologies that you’ll be relying 
 ### Days 60-65: Maps and bugs
 - [x] Day 60 – Project 16, part one
 - [x] Day 61 – Project 16, part two
-- [ ] Day 62 – Project 17, part one
+- [x] Day 62 – Project 17, part one
 - [ ] Day 63 – Project 17, part two
 - [ ] Day 64 – Project 18, part one
 - [ ] Day 65 – Project 18, part two

@@ -111,14 +111,14 @@ We’ve covered some hugely important iOS technologies that you’ll be relying 
 - [x] Day 61 – Project 16, part two
 - [x] Day 62 – Project 17, part one
 - [x] Day 63 – Project 17, part two
-- [ ] Day 64 – Project 18, part one
-- [ ] Day 65 – Project 18, part two
+- [x] Day 64 – Project 18, part one
+- [x] Day 65 – Project 18, part two
 
 
 ### Day 66: Consolidation VII
 Although these last few projects should have been nice and easy for you, it’s still worth pausing for a day to review what was learned and try out a fresh challenge.
 
-- [ ] Day 66 - Milestone: Projects 16-18
+- [x] Day 66 - Milestone: Projects 16-18 --- NOT INTERESTED IN DEVELOPING GAMES WITH SPRITEKIT SO I'M GONNA SKIP THE CHALLENGE HERE
 
 ### Days 67-73: Leveling up
 We’re going to tackle two tough projects back to back, but in doing so you’ll start to really be amazed at the things you can build on iOS – brace yourself!

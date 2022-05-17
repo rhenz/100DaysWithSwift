@@ -1,17 +1,25 @@
 import Foundation
+import Darwin
 
-func doubleValues(in nums: [Int], matching shouldDouble: (Int) -> Bool) -> [Int] {
-    var finalValues = [Int]()
-    for num in nums {
-        finalValues.append(num * (shouldDouble(num) ? 2 : 1))
+class MenuItem {
+    let name: String
+    init(name: String) {
+        self.name = name
     }
-    return finalValues
+    deinit {
+        print("Menu Item '\(name)' deinit")
+    }
 }
- 
-let nums = [1,2,3,4,5]
-//doubleValues(in: nums) { num in
-//    num.isMultiple(of: 2)
-//}
 
-doubleValues(in: nums, matching: { $0.isMultiple(of: 2)})
-nums.sorted(by: <)
+class Menu {
+    var favoriteItem: MenuItem?
+    init(favoriteItem: MenuItem) {
+        self.favoriteItem = favoriteItem
+    }
+}
+
+var myMenu = Menu(favoriteItem: MenuItem(name: "fries"))
+print("Removing favorite item from the Menu...")
+sleep(3)
+myMenu.favoriteItem = nil
+// Prints: Menu Item 'fries' deinit

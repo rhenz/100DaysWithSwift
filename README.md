@@ -123,7 +123,7 @@ Although these last few projects should have been nice and easy for you, it’s 
 ### Days 67-73: Leveling up
 We’re going to tackle two tough projects back to back, but in doing so you’ll start to really be amazed at the things you can build on iOS – brace yourself!
 - [x] Day 67 – Project 19, part one
-- [ ] Day 68 – Project 19, part two
+- [x] Day 68 – Project 19, part two
 - [ ] Day 69 – Project 19, part three
 - [ ] Day 70 – Project 20, part one
 - [ ] Day 71 – Project 20, part two

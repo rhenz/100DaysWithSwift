@@ -125,7 +125,7 @@ We’re going to tackle two tough projects back to back, but in doing so you’l
 - [x] Day 67 – Project 19, part one
 - [x] Day 68 – Project 19, part two
 - [x] Day 69 – Project 19, part three
-- [ ] Day 70 – Project 20, part one
+- [x] Day 70 – Project 20, part one
 - [ ] Day 71 – Project 20, part two
 - [ ] Day 72 – Project 21, part one
 - [ ] Day 73 – Project 21, part two

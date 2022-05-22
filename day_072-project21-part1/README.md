@@ -95,5 +95,5 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 
 
 ## Screenshots
-![App-Screenshot](documentation/1.png)
+![App-Screenshot](documentation/1.gif)
 

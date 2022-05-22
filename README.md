@@ -127,7 +127,7 @@ We’re going to tackle two tough projects back to back, but in doing so you’l
 - [x] Day 69 – Project 19, part three
 - [x] Day 70 – Project 20, part one
 - [x] Day 71 – Project 20, part two
-- [ ] Day 72 – Project 21, part one
+- [x] Day 72 – Project 21, part one
 - [ ] Day 73 – Project 21, part two
 
 ### Day 74: Consolidation VIII

@@ -128,7 +128,7 @@ We’re going to tackle two tough projects back to back, but in doing so you’l
 - [x] Day 70 – Project 20, part one
 - [x] Day 71 – Project 20, part two
 - [x] Day 72 – Project 21, part one
-- [ ] Day 73 – Project 21, part two
+- [x] Day 73 – Project 21, part two
 
 ### Day 74: Consolidation VIII
 After two tough projects and yet another important technique, it’s time to hit the brakes for a day and double check everything is sinking in.

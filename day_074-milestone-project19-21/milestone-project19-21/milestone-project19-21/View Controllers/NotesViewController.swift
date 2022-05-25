@@ -14,10 +14,15 @@ protocol NoteRepresentable {
     var image: UIImage? { get }
 }
 
+protocol NotesViewControllerDelegate: AnyObject {
+    func didUpdateNote(note: Note, at index: Int)
+    func didCreateNewNote(note: Note)
+}
+
 class NotesViewController: UITableViewController {
     
     // MARK: - Properties
-    var viewModel = NotesViewModel(notes: Note.testData)
+    var viewModel = NotesViewModel(notes: [])
 
     // MARK: - View Lifecycle
     override func viewDidLoad() {
@@ -40,20 +45,34 @@ class NotesViewController: UITableViewController {
         tableView.reloadData()
     }
     
-    private func showDetailVC(_ note: Note? = nil) {
-        let noteToShow = note == nil ? self.viewModel.createNewNote() : note!
-        let detailVC = UIStoryboard(name: "Main", bundle: .main).instantiateViewController(identifier: DetailViewController.storyboardIdentifier, creator: { coder -> DetailViewController? in
-            DetailViewController(coder: coder, viewModel: NoteViewModel(note: noteToShow))
-        })
+    private func showDetailVC(_ noteViewModel: NoteViewModel? = nil) {
+        if let noteViewModel = noteViewModel {
+            // Show Existing Note
+            let detailVC = UIStoryboard(name: "Main", bundle: .main).instantiateViewController(identifier: DetailViewController.storyboardIdentifier, creator: { coder -> DetailViewController? in
+                DetailViewController(coder: coder, viewModel: noteViewModel)
+            })
+            detailVC.notesVCdelegate = self
+            navigationController?.pushViewController(detailVC, animated: true)
+        } else {
+            // Create New Note
+            let detailVC = UIStoryboard(name: "Main", bundle: .main).instantiateViewController(identifier: DetailViewController.storyboardIdentifier, creator: { coder -> DetailViewController? in
+                DetailViewController(coder: coder, viewModel: NoteViewModel(note: Note()))
+            })
+            detailVC.notesVCdelegate = self
+            navigationController?.pushViewController(detailVC, animated: true)
+        }
+    }
+    
+    // TODO: Save notes to Files
+    private func saveNotes() {
         
-        navigationController?.pushViewController(detailVC, animated: true)
     }
 }
 
 // MARK: - Actions
 extension NotesViewController {
     @objc private func createNewNote() {
-        
+        showDetailVC()
     }
 }
 
@@ -78,6 +97,26 @@ extension NotesViewController {
 extension NotesViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        showDetailVC()
+        showDetailVC(viewModel.viewModel(for: indexPath.item))
+    }
+}
+
+
+// MARK: -
+extension NotesViewController: NotesViewControllerDelegate {
+    func didUpdateNote(note: Note, at index: Int) {
+        // Update Note
+        viewModel.updateNote(note: note, at: index)
+        
+        // Update Table View
+        tableView.reloadData()
+    }
+    
+    func didCreateNewNote(note: Note) {
+        // Add New Note
+        viewModel.addNewNote(note: note)
+        
+        // Update Table View
+        tableView.reloadData()
     }
 }

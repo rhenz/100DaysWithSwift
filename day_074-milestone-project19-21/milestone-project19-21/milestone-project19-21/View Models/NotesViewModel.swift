@@ -11,7 +11,7 @@ import Foundation
 struct NotesViewModel {
     
     // MARK: - Properties
-    let notes: [Note]
+    private(set) var notes: [Note]
     
     // MARK: -
     var numberOfNotes: Int {
@@ -19,11 +19,19 @@ struct NotesViewModel {
     }
     
     func viewModel(for index: Int) -> NoteViewModel {
-        return NoteViewModel(note: notes[index])
+        return NoteViewModel(note: notes[index], selectedIndex: index)
     }
     
     func createNewNote() -> Note {
         return Note()
+    }
+    
+    mutating func updateNote(note: Note, at index: Int) {
+        self.notes[index] = note
+    }
+    
+    mutating func addNewNote(note: Note) {
+        self.notes.append(note)
     }
     
 }

@@ -7,11 +7,15 @@
 
 import Foundation
 
-struct Note {
+struct Note: Codable {
     var title: String
     var date: Date
     var content: String
     var imageName: String?
+    
+    var isEmpty: Bool {
+        return title.isEmpty && content.isEmpty
+    }
     
     init() {
         self.title = ""
@@ -26,6 +30,12 @@ struct Note {
         self.content = content
         self.imageName = imageName
     }
+    
+    // MARK: -
+    mutating func update(title: String, content: String) {
+        self.title = title
+        self.content = content
+    }
 }
 
 
@@ -36,7 +46,7 @@ extension Note {
     static var testData: [Note] {
         
         var notes: [Note] = []
-        for _ in 1...20 {
+        for _ in 1...5 {
             notes.append(testNote)
         }
         

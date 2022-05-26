@@ -41,7 +41,7 @@ class ViewController: UIViewController {
 //        locationManager?.startMonitoring(for: beaconRegion)
 //        locationManager?.startRangingBeacons(satisfying: beaconRegion.beaconIdentityConstraint)
         
-        
+        // Challenge #2
         for beacon in beacons {
             print("Registering: \(beacon.key) - \(beacon.value)")
             let beaconRegion = CLBeaconRegion(uuid: UUID(uuidString: beacon.key)!, identifier: beacon.value)

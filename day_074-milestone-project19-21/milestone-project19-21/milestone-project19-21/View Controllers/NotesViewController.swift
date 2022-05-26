@@ -22,7 +22,7 @@ protocol NotesViewControllerDelegate: AnyObject {
 class NotesViewController: UITableViewController {
     
     // MARK: - Properties
-    var viewModel = NotesViewModel(notes: [])
+    var viewModel = NotesViewModel()
 
     // MARK: - View Lifecycle
     override func viewDidLoad() {
@@ -65,7 +65,7 @@ class NotesViewController: UITableViewController {
     
     // TODO: Save notes to Files
     private func saveNotes() {
-        
+        viewModel.saveNotes()
     }
 }
 
@@ -110,6 +110,9 @@ extension NotesViewController: NotesViewControllerDelegate {
         
         // Update Table View
         tableView.reloadData()
+        
+        // Save Note
+        viewModel.saveNotes()
     }
     
     func didCreateNewNote(note: Note) {
@@ -118,5 +121,8 @@ extension NotesViewController: NotesViewControllerDelegate {
         
         // Update Table View
         tableView.reloadData()
+        
+        // Save Note
+        viewModel.saveNotes()
     }
 }

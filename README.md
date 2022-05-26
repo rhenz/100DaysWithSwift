@@ -132,7 +132,7 @@ We’re going to tackle two tough projects back to back, but in doing so you’l
 
 ### Day 74: Consolidation VIII
 After two tough projects and yet another important technique, it’s time to hit the brakes for a day and double check everything is sinking in.
-- [ ] Day 74 – Milestone: Projects 19-21 **in-progress**
+- [x] Day 74 – Milestone: Projects 19-21
 
 
 ### Days 75-81: Beacons and bombs

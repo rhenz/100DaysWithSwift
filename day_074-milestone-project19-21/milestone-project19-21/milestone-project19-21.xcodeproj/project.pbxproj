@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9643101283F4C1B002763AC /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9643100283F4C1B002763AC /* Storage.swift */; };
+		C9643103283F4DFB002763AC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9643102283F4DFB002763AC /* Constants.swift */; };
 		C9ECF232283C8A5500198797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ECF231283C8A5500198797 /* AppDelegate.swift */; };
 		C9ECF234283C8A5500198797 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ECF233283C8A5500198797 /* SceneDelegate.swift */; };
 		C9ECF239283C8A5500198797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9ECF237283C8A5500198797 /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C9643100283F4C1B002763AC /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		C9643102283F4DFB002763AC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C9ECF22E283C8A5500198797 /* milestone-project19-21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "milestone-project19-21.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9ECF231283C8A5500198797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9ECF233283C8A5500198797 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		C93F8C6B283E23D9001C30E1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C9643100283F4C1B002763AC /* Storage.swift */,
+				C9643102283F4DFB002763AC /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -241,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9ECF25B283CD8A500198797 /* NoteViewModel.swift in Sources */,
+				C9643103283F4DFB002763AC /* Constants.swift in Sources */,
 				C9ECF232283C8A5500198797 /* AppDelegate.swift in Sources */,
 				C9ECF25E283CE78000198797 /* UIViewController.swift in Sources */,
 				C9ECF234283C8A5500198797 /* SceneDelegate.swift in Sources */,
@@ -249,6 +256,7 @@
 				C9ECF253283C8BFC00198797 /* NoteCell.swift in Sources */,
 				C9ECF24C283C8B7200198797 /* NotesViewController.swift in Sources */,
 				C9ECF24E283C8B7A00198797 /* DetailViewController.swift in Sources */,
+				C9643101283F4C1B002763AC /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

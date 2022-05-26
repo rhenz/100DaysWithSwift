@@ -13,17 +13,24 @@ struct NotesViewModel {
     // MARK: - Properties
     private(set) var notes: [Note]
     
-    // MARK: -
+    
     var numberOfNotes: Int {
         return notes.count
     }
     
-    func viewModel(for index: Int) -> NoteViewModel {
-        return NoteViewModel(note: notes[index], selectedIndex: index)
+    
+    // MARK: - Init
+    init() {
+        notes = []
+        
+        // Retrieve notes
+        retrieveNotes()
     }
     
-    func createNewNote() -> Note {
-        return Note()
+    // MARK: -
+    
+    func viewModel(for index: Int) -> NoteViewModel {
+        return NoteViewModel(note: notes[index], selectedIndex: index)
     }
     
     mutating func updateNote(note: Note, at index: Int) {
@@ -34,4 +41,16 @@ struct NotesViewModel {
         self.notes.append(note)
     }
     
+    func saveNotes() {
+        Storage.store(notes, to: .notes, as: Constants.FileName.notesJson)
+    }
+    
+    private mutating func retrieveNotes() {
+        if Storage.fileExists(Constants.FileName.notesJson, in: .notes) {
+            notes =  Storage.retrieve(Constants.FileName.notesJson, from: .notes, as: [Note].self)
+        } else {
+            // Initialize notes with empty arrays
+            notes = []
+        }
+    }
 }

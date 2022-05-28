@@ -139,7 +139,7 @@ After two tough projects and yet another important technique, it’s time to hit
 - [x] Day 75 – Project 22, part one
 - [x] Day 76 – Project 22, part two
 - [x] Day 77 – Project 23, part one
-- [ ] Day 78 – Project 23, part two
+- [x] Day 78 – Project 23, part two
 - [ ] Day 79 – Project 23, part three
 - [ ] Day 80 – Project 24, part one
 - [ ] Day 81 – Project 24, part two

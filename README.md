@@ -141,8 +141,8 @@ After two tough projects and yet another important technique, it’s time to hit
 - [x] Day 77 – Project 23, part one
 - [x] Day 78 – Project 23, part two
 - [x] Day 79 – Project 23, part three
-- [ ] Day 80 – Project 24, part one
-- [ ] Day 81 – Project 24, part two
+- [x] Day 80 – Project 24, part one
+- [x] Day 81 – Project 24, part two
 
 ### Day 82: Consolidation IX
 Your head is probably spinning with Bezier paths and iBeacons, so before we continue on with more learning it’s important to take a day to pause and reflect on what has been covered.

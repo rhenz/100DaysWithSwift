@@ -146,7 +146,7 @@ After two tough projects and yet another important technique, it’s time to hit
 
 ### Day 82: Consolidation IX
 Your head is probably spinning with Bezier paths and iBeacons, so before we continue on with more learning it’s important to take a day to pause and reflect on what has been covered.
-- [ ] Day 82 – Milestone: Projects 22-24
+- [x] Day 82 – Milestone: Projects 22-24
 
 
 ### Days 83-89: Multipeer and motion

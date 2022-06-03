@@ -153,7 +153,7 @@ Your head is probably spinning with Bezier paths and iBeacons, so before we cont
 These next three projects give you chance to go over some earlier topics again, while also introducing some new frameworks such as MultipeerConnectivity and Core Motion.
 - [x] Day 83 – Project 25, part one
 - [x] Day 84 – Project 25, part two
-- [ ] Day 85 – Project 26, part one
+- [x] Day 85 – Project 26, part one
 - [ ] Day 86 – Project 26, part two
 - [ ] Day 87 – Project 26, part three
 - [ ] Day 88 – Project 27, part one

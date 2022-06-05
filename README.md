@@ -154,8 +154,8 @@ These next three projects give you chance to go over some earlier topics again, 
 - [x] Day 83 – Project 25, part one
 - [x] Day 84 – Project 25, part two
 - [x] Day 85 – Project 26, part one
-- [ ] Day 86 – Project 26, part two
-- [ ] Day 87 – Project 26, part three
+- [x] Day 86 – Project 26, part two
+- [x] Day 87 – Project 26, part three
 - [ ] Day 88 – Project 27, part one
 - [ ] Day 89 – Project 27, part two
 

@@ -156,7 +156,7 @@ These next three projects give you chance to go over some earlier topics again, 
 - [x] Day 85 – Project 26, part one
 - [x] Day 86 – Project 26, part two
 - [x] Day 87 – Project 26, part three
-- [ ] Day 88 – Project 27, part one
+- [x] Day 88 – Project 27, part one
 - [ ] Day 89 – Project 27, part two
 
 ### Days 90-91: Consolidation X

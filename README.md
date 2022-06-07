@@ -157,7 +157,7 @@ These next three projects give you chance to go over some earlier topics again, 
 - [x] Day 86 – Project 26, part two
 - [x] Day 87 – Project 26, part three
 - [x] Day 88 – Project 27, part one
-- [ ] Day 89 – Project 27, part two
+- [x] Day 89 – Project 27, part two
 
 ### Days 90-91: Consolidation X
 As we enter the last few days of this challenge, it’s as important as ever to pause for a moment and review what you’ve learned these last few days.

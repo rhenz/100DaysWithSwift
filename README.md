@@ -161,7 +161,7 @@ These next three projects give you chance to go over some earlier topics again, 
 
 ### Days 90-91: Consolidation X
 As we enter the last few days of this challenge, it’s as important as ever to pause for a moment and review what you’ve learned these last few days.
-- [ ] Day 90 – Milestone: Projects 25-27
+- [x] Day 90 – Milestone: Projects 25-27
 - [ ] Day 91 – Core Graphics redux
 
 ### Days 92-98: The Final Countdown

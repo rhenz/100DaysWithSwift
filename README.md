@@ -162,11 +162,11 @@ These next three projects give you chance to go over some earlier topics again, 
 ### Days 90-91: Consolidation X
 As we enter the last few days of this challenge, it’s as important as ever to pause for a moment and review what you’ve learned these last few days.
 - [x] Day 90 – Milestone: Projects 25-27
-- [ ] Day 91 – Core Graphics redux
+- [x] Day 91 – Core Graphics redux
 
 ### Days 92-98: The Final Countdown
 These final three projects introduce you to some key functionality that will really help you up your game: using Face ID, mixing UIKit and SpriteKit, and identifying performance hotspots in your code.
-- [ ] Day 92 – Project 28, part one
+- [x] Day 92 – Project 28, part one
 - [ ] Day 93 – Project 28, part two
 - [ ] Day 94 – Project 29, part one
 - [ ] Day 95 – Project 29, part two

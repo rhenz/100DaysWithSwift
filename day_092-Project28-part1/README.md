@@ -1,10 +1,12 @@
 # Day 92: Project 28, Part One
 
 ## Notes
-- Setting up
-- basic text editor
-- writing somewhere safe; ios keychain
-- touch to activate: touch ID, face ID and LocalAuthentication
+
+Today, we start again we a new project, and we are going to make use of `iOS Keychain`, `touchID` , `faceID`, and `LocalAuthentication`.
+
+
+
+
 
 
 ## Screenshots

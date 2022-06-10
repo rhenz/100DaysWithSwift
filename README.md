@@ -167,7 +167,7 @@ As we enter the last few days of this challenge, it’s as important as ever to 
 ### Days 92-98: The Final Countdown
 These final three projects introduce you to some key functionality that will really help you up your game: using Face ID, mixing UIKit and SpriteKit, and identifying performance hotspots in your code.
 - [x] Day 92 – Project 28, part one
-- [ ] Day 93 – Project 28, part two
+- [x] Day 93 – Project 28, part two
 - [ ] Day 94 – Project 29, part one
 - [ ] Day 95 – Project 29, part two
 - [ ] Day 96 – Project 29, part three

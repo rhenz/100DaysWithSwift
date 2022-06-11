@@ -14,3 +14,4 @@
 
 ## Screenshots
 ![App-Screenshot](documentation/1.png)
+![App-Screenshot](documentation/1.gif)

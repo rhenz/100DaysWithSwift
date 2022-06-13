@@ -170,7 +170,7 @@ These final three projects introduce you to some key functionality that will rea
 - [x] Day 93 – Project 28, part two
 - [x] Day 94 – Project 29, part one
 - [x] Day 95 – Project 29, part two
-- [ ] Day 96 – Project 29, part three
+- [x] Day 96 – Project 29, part three
 - [ ] Day 97 – Project 30, part one
 - [ ] Day 98 – Project 30, part two
 

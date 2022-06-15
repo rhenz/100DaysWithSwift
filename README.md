@@ -172,7 +172,7 @@ These final three projects introduce you to some key functionality that will rea
 - [x] Day 95 – Project 29, part two
 - [x] Day 96 – Project 29, part three
 - [x] Day 97 – Project 30, part one
-- [ ] Day 98 – Project 30, part two
+- [x] Day 98 – Project 30, part two
 
 ### Day 99: Consolidation XI
 It’s time to recap all the things you’ve learned in the last few days, and start work on a big challenge to go out with. You’ve got this!

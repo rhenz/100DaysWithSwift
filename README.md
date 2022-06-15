@@ -176,9 +176,9 @@ These final three projects introduce you to some key functionality that will rea
 
 ### Day 99: Consolidation XI
 It’s time to recap all the things you’ve learned in the last few days, and start work on a big challenge to go out with. You’ve got this!
-- [ ] Day 99 – Milestone: Projects 28-30
+- [x] Day 99 – Milestone: Projects 28-30
 
 ### Wrap up
 It’s time to see how much you remember from across the entire curriculum. Are you ready for this?
-- [ ] Day 100 – Final exam
+- [x] Day 100 – Final exam
 

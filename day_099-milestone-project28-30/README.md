@@ -2,7 +2,7 @@
 
 ## Note
 
-I already did this with SwiftUI under Stanford_CS193P course. Too lazy to redo this again.. So yeah. I will just insert that project here.
+I already did this with SwiftUI under Stanford_CS193P course. So yeah. I will just insert that project here so I can focus on other things that is not repetitive. 
 
 
 ## Challenges
